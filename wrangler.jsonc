@@ -9,7 +9,7 @@
   },
   "observability": { "enabled": true },
   "vars": {
-    "OWNER_EMAIL": "CAMBIA@TU-EMAIL.com",
+    "OWNER_EMAIL": "juanjosegonzalezdulcey@gmail.com",
     "FROM_EMAIL": "ofertas@vendetucamara.com"
   }
 }
