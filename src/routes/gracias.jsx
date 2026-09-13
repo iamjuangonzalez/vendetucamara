@@ -1,6 +1,8 @@
-import { Link } from '@tanstack/react-router'
+import { createFileRoute, Link } from '@tanstack/react-router'
 
-export default function Gracias() {
+export const Route = createFileRoute('/gracias')({ component: Gracias })
+
+function Gracias() {
   return (
     <main>
       <span className="tag">Recibido</span>

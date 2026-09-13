@@ -1,7 +1,9 @@
 import { useState } from 'react'
-import { useNavigate } from '@tanstack/react-router'
+import { createFileRoute, useNavigate } from '@tanstack/react-router'
 
-export default function Home() {
+export const Route = createFileRoute('/')({ component: Home })
+
+function Home() {
   const navigate = useNavigate()
   const [error, setError] = useState('')
   const [sending, setSending] = useState(false)

@@ -1,6 +1,6 @@
 import { test } from 'node:test'
 import assert from 'node:assert/strict'
-import { validate } from './src/index.js'
+import { validate } from './worker/index.js'
 
 test('acepta un envío normal', () => {
   const { data, error } = validate({ name: 'Ana', email: 'a@b.co', message: 'hola', offer: '1500' })

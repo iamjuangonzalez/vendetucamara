@@ -1,6 +1,6 @@
 {
   "name": "spring-rice-3e8a",
-  "main": "src/index.js",
+  "main": "worker/index.js",
   "compatibility_date": "2026-09-13",
   "assets": {
     "directory": "./dist",
